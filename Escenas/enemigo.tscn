@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Codigos/Area2D.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/icon.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 31.5746, 31.5993 )
+
+[node name="Area2D" type="Area2D"]
+position = Vector2( 494.952, 262.749 )
+gravity = 0.0
+script = ExtResource( 1 )
+velocity = Vector2( -500, 0 )
+
+[node name="Sprite" type="Sprite" parent="."]
+modulate = Color( 0.0980392, 0.0470588, 0.0470588, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+

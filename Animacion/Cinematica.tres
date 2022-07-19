@@ -1,0 +1,38 @@
+[gd_resource type="Animation" format=2]
+
+[resource]
+resource_name = "Eescape"
+length = 5.0
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("Sprite:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( 141.337, -0.25, 0, 0.25, 0, 145.654, -0.25, 0, 0.25, 0, 473.742, -0.25, 0, 0.25, 0, 607.567, -0.25, 0, 0.25, 0, 607.567, -0.25, 0, 0.25, 0, 1100, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 0.1, 1, 2, 3.1, 4.2 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("Sprite:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 358.701, -0.25, 0, 0.25, 0, 410.504, -0.25, 0, 0.25, 0, 224.875, -0.25, 0, 0.25, 0, 423.455, -0.25, 0, 0.25, 0, 430, -0.25, 0, 0.25, 0, 420, -0.25, 0, 0.25, 0, 430, -0.25, 0, 0.25, 0, 420, -0.25, 0, 0.25, 0, 430, -0.25, 0, 0.25, 0, 420, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 0.1, 1, 2, 2.5, 2.7, 2.8, 2.9, 3, 3.1 )
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:rotation_degrees")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1, 1.6, 2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -20.0, 0.0, 20.0, 0.0 ]
+}
+

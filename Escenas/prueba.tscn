@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.46276, 0.0839687, 0.369728, 1 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 328.665, 25.3612 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite" type="Panel" parent="StaticBody2D"]
+margin_left = 229.0
+margin_top = 157.0
+margin_right = 882.0
+margin_bottom = 204.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( 555, 180.584 )
+shape = SubResource( 2 )
+
